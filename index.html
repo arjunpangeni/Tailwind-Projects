@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class=" bg-white text-black w-full uppercase tracking-[0.22px] md:text-[22px] py-11 ">
+        <div class="container  mx-auto flex flex-row items-center  justify-between md:px-4 ;">
+            <div>
+                <img src="./images/logo-black.png" alt="shop logo">
+            </div>
+
+            <ul class="hidden md:flex  flex-row gap-16 justify-end items-center">
+                <li><a href="#">Catalogue </a></li>
+                <li><a href="#">Fashion </a></li>
+                <li><a href="#">Favourite </a></li>
+                <li><a href="#">Lifestyle </a></li>
+                <li class=""><a class="bg-black text-white rounded-md py-2 px-4 hover:bg-slate-600" href="#">Sign Up
+                    </a></li>
+            </ul>
+            <!-- mobile nav -->
+            <div class="md:hidden z-30 rounded-full">
+                <div class="space-y-1 rotate-180" id="hamburger">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul class="flex flex-col justify-start gap-5 h-screen bg-yellow-600 absolute top-0 left-0 p-10 
+                    items-start -translate-x-full transition-all delay-200  " id="mobileNav">
+                    <li><a href="#">Catalogue </a></li>
+                    <li><a href="#">Fashion </a></li>
+                    <li><a href="#">Favourite </a></li>
+                    <li><a href="#">Lifestyle </a></li>
+                    <li class=""><a class="" href="#">Sign Up </a></li>
+                </ul>
+            </div>
+            <!-- mobile nav ends  -->
+        </div>
+
+    </nav>
+    <!-- hero section start -->
+    <section class="flex flex-col container mx-auto bg-[#f4f6f5] rounded-[59px] pt-16 px-10 md:items-center md:px-20 md:pt-[68px] 
+
+        md:flex-row md:justify-between gap-10  -z-10">
+        <div class="flex flex-col items-start text-black md:pb-[68px] z-10">
+            <h1 class="text-4xl font-black leading-[125%] sm:text-5xl md:text-[96px] md:leading-[125%]">
+                <span
+                    class=" relative after:w-[120%] after:h-full after:bg-white after:block  after:absolute after:-z-10 after:top-0 after:rounded-3xl after:-rotate-2  ">
+                    LET'S</span>
+                </br> EXPLORE <br />
+                <span
+                    class="relative after:w-[120%] after:h-full after:bg-primary after:block  after:absolute after:-z-10 after:top-0 after:rounded-3xl after:-rotate-2 ">UNIQUE</span>
+                <br /> CLOTHES
+            </h1>
+            <p class="md:text-[32px] ">Live for Influcential and Innovative fashion</p>
+            <div class="flex flex-col md:flex-row md:items-center justify-evenly gap-9 pt-8">
+                <div class="w-1/2 h-1/2">
+                    <img src="./images/banner-image-2.png" alt="banner">
+                </div>
+                <a href="#" class="bg-black text-white rounded-md py-4 text-center ">Shop Now</a>
+            </div>
+
+        </div>
+        <div class=" ">
+            <img src="./images/banner-image.png" alt="" class="h-auto max-w-full">
+        </div>
+
+    </section>
+    <!-- hero section ends  -->
+
+
+    <!-- brand section start  -->
+    <section
+        class=" flex flex-col justify-center items-center gap-28 bg-primary mx-auto container py-[40px] my-20 md:flex-row rounded-[60px] ">
+        <div class="w-[100px]"><img src="/images/brands/hm.png" alt=""></div>
+        <div class="w-[100px]"><img src="/images/brands/obey.png" alt=""></div>
+        <div class="w-[100px]"><img src="/images/brands/shopify.png" alt=""></div>
+        <div class="w-[100px]"><img src="/images/brands/lacoste.png" alt=""></div>
+        <div class="w-[100px]"><img src="/images/brands/levis.png" alt=""></div>
+        <div class="w-[100px]"><img src="/images/brands/amazon.png" alt=""></div>
+
+    </section>
+    <!-- brand sectcion ends  -->
+
+    <!-- new arrival section -->
+    <section class="flex flex-col container items-start gap-7 mx-auto px-16 my-28">
+        <div class="relative text-black">
+            <h2
+                class="text-4xl font-black after:content-oval after:absolute after:left-[50%] after:-bottom-2.5 after:-z-10 md:text-5xl">
+                NEW
+                ARRIVALS</h2>
+        </div>
+        <div class="grid grid-flow-row grid-rows-1 gap-7 md:grid-flow-col md:grid-cols-3">
+            <!-- cards -->
+            <div class="flex flex-col w-full gap-7 ">
+                <img class="w-full h-[704px] object-cover object-[75%] rounded-3xl " src="./images/hoddiee.png" alt="">
+                <div class="flex flex-row items-center px-10">
+                    <div class="flex flex-col  ">
+                        <h3 class="text-[32px] font-medium ">Hoodies & Sweetshirt</h3>
+                        <a href="" class="text-2xl text-[#7f7f7f]">Explore Now!</a>
+                    </div>
+                    <div class="ml-10">
+                        <img src="./images/arrow.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col w-full gap-7 ">
+                <img class="w-full h-[704px] object-cover object-[38%] rounded-3xl " src="./images/coats.png" alt="">
+                <div class="flex flex-row items-center  px-10">
+                    <div class="flex flex-col ">
+                        <h3 class="text-[32px] font-medium ">Hoodies & Sweetshirt</h3>
+                        <a href="" class="text-2xl text-[#7f7f7f]">Explore Now!</a>
+                    </div>
+                    <div class="ml-10">
+                        <img src="./images/arrow.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col w-full gap-7 ">
+                <img class="w-full h-[704px] object-cover object-[40%] rounded-3xl " src="./images/T-shirts.png" alt="">
+                <div class="flex flex-row items-center px-10 ">
+                    <div class="flex flex-col ">
+                        <h3 class="text-[32px] font-medium ">Hoodies & Sweetshirt</h3>
+                        <a href="" class="text-2xl text-[#7f7f7f]">Explore Now!</a>
+                    </div>
+                    <div class="ml-10">
+                        <img src="./images/arrow.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- new arrrvl section ends  -->
+
+    <!-- favourite section start -->
+    <section class="flex flex-col container items-start gap-7 mx-auto px-16 my-28">
+        <div class="relative text-black">
+            <h2
+                class="text-4xl font-black after:content-oval after:absolute after:left-[50%] after:-bottom-2.5 after:-z-10 md:text-5xl">
+                Young's Fabourite</h2>
+        </div>
+        <div class="grid grid-flow-row grid-rows-1 gap-7 md:grid-flow-col md:grid-cols-2">
+            <!-- cards -->
+            <div class="flex flex-col w-full gap-7 ">
+                <img class="w-full h-[704px] object-cover object-[45%] rounded-3xl " src="./images/fav-1.png" alt="">
+                <div class="flex flex-row items-center px-10 ">
+                    <div class="flex flex-col ">
+                        <h3 class="text-[32px] font-medium ">Trending on instagram</h3>
+                        <a href="" class="text-2xl text-[#7f7f7f]">Explore Now!</a>
+                    </div>
+                    <div class="ml-10">
+                        <img src="./images/arrow.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col w-full gap-7 ">
+                <img class="w-full h-[704px] object-cover object-[50%] rounded-3xl " src="./images/fav-2.png" alt="">
+                <div class="flex flex-row items-center px-10 ">
+                    <div class="flex flex-col ">
+                        <h3 class="text-[32px] font-medium ">All Under $40</h3>
+                        <a href="" class="text-2xl text-[#7f7f7f]">Explore Now!</a>
+                    </div>
+                    <div class="ml-10">
+                        <img src="./images/arrow.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- favourite section ends -->
+
+
+    <!-- app section start -->
+    <section class="container mx-auto flex flex-col my-28 px-16 gap-7 md:flex-row md:justify-evenly md:items-center">
+        <div class="flex flex-1 flex-col items-center text-center md:items-start ">
+            <h4 class="text-3xl md:text-4xl font-black tracking-[2px] leading-10 md:leading-[150%] mb-10">DOWNLOAD APP &
+                <br>
+                GET THE VOUCHER !
+            </h4>
+            <p class="text-2xl font-medium leading-8 text-[#7c7c7c] text-center">Get 30% off for first transaction using
+                <br>
+                Rondovision mobile app for now
+            </p>
+            <div class="flex flex-col md:flex-row gap-5 mt-16">
+                <img src="/images/apple-store.png" alt="" class="w-[204px]">
+                <img src="/images/play-store.png" alt="" class="w-[240px]">
+            </div>
+        </div>
+        <div class="flex-1">
+            <img src="./images/mobile-app.png" alt="">
+        </div>
+
+
+    </section>
+    <!-- app section ends  -->
+
+    <!-- newsletter section -->
+    <section class=" container mx-auto my-28 px-16 flex flex-col items-center py-20 bg-primary rounded-xl">
+        <h4 class="text-3xl font-black text-white text-center tracking-[1.7px] mb-8 md:leading-[70px] md:text-[55px]  ">
+            JOIN SHOPPING COMMUNITY TO <br /> GET MONTHLY PROMO</h4>
+        <p class="text-xl text-center text-white font-normal md:leading-9 tracking-[1px] md:text-[32px] mb-8">Type your
+            email
+            down below and be young wild generation</p>
+        <form class="">
+            <div class="bg-white rounded-xl  flex flex-row items-center">
+                <input class="px-4 py-5 rounded-xl focus-within:outline-0 md:py-6 md:px-7" type="email" name="email"
+                    placeholder="type your email here">
+                <button
+                    class="px-4 py-2 bg-black text-white uppercase md:text-[33px] md:py-[5px] md:px-[20px] rounded-xl mr-2 hover:bg-primary hover:text-black"
+                    type="submit">Send</button>
+            </div>
+        </form>
+    </section>
+    <!-- news letter section ends  -->
+
+    <footer
+        class="container mx-auto mt-28 px-16 bg-black text-white py-16 flex flex-col gap-24 md:flex-row md:items-center md:gap-[415px] md:justify-between md:px-[100px]">
+        <div class="flex flex-col items-center md:items-start gap-8 ">
+            <div class="">
+                <img src="./images/FASHION.png" alt="">
+            </div>
+            <div class="">
+                <p class="text-xl text-[#8e8e8e] md:text-2xl font-normal ">Complete your style with awesome <br>
+                    clothes from us.</p>
+            </div>
+            <ul class="flex gap-4">
+                <li><a href=""><img src="./images/fb.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/insta.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/twitter.svg" alt=""></a></li>
+                <li><a href=""><img src="./images/linkedin.png" alt=""></a></li>
+
+            </ul>
+        </div>
+        <div class="flex flex-col gap-[50px] md:gap-[188px] md:flex-row mr-10 ">
+            <div class="flex flex-col  text-[#D9D9D9] gap-3">
+                <h4 class="font-bold">Company</h4>
+                <ul class="flex flex-col gap-4">
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="">Carrers</a></li>
+                </ul>
+
+            </div>
+            <div class="flex flex-col text-[#D9D9D9] gap-3">
+                <h4 class="font-bold">Quick Link</h4>
+                <ul class="flex flex-col gap-4">
+                    <li><a href="#">Share Location</a></li>
+                    <li><a href="#">Orders Tracking</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+
+            </div>
+            <div class="flex flex-col text-[#D9D9D9] gap-8">
+                <h4 class="font-bold">Legal</h4>
+                <ul class="flex flex-col gap-4">
+                    <li><a href="#">Terms & conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileNav = document.getElementById('mobileNav')
+
+        hamburger.addEventListener('click', () => mobileNav.classList.toggle('-translate-x-full'))
+
+    </script>
+</body>
+
+</html>
